@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="New Game" android:id="@+id/newGame"
+        app:showAsAction="always"/>  <!--for newgame to be displayed out of menu on main app screen-->
+
+    <item android:title="Settings" android:id="@+id/settings"/>
+
+    <item android:title="Board size 3"
+        android:id="@+id/size3"></item>
+
+    <item android:title="Board Size 4"
+        android:id="@+id/size4"></item>
+
+    <item android:title="Board size 5"
+        android:id="@+id/size5">
+    </item>
+
+</menu>
